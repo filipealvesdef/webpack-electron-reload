@@ -24,7 +24,8 @@
   "scripts": {
     "build": "tsc -b",
     "lint": "tslint --project tsconfig.json",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepare": "yarn build"
   },
   "lint-staged": {
     "*.ts": [
