@@ -40,7 +40,8 @@
     }
   },
   "dependencies": {
-    "cross-spawn": "^7.0.0"
+    "cross-spawn": "^7.0.0",
+    "tslib": "^2.0.3"
   },
   "peerDependencies": {
     "electron": ">=0.0.0"
